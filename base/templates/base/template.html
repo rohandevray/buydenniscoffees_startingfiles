@@ -3,10 +3,9 @@
 <html>
 <head>
 	<title>Buy Me Coffee</title>
-
-	<style type="text/css">
-		
-	</style>
+	<link rel="stylesheet" href="{% static 'styles/checkout.css' %}" />
+	<script src="https://js.stripe.com/v3/"></script>
+    <script src="{% static 'styles/checkout.js' %}" defer></script>
 </head>
 <body>
 	{% block content %}
